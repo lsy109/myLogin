@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* LoginPage 和 Login组件 的css*/
+.LoginPage {
+  display: flex;
+  justify-content: center; /* 水平方向居中 */
+  align-items: center;    /* 垂直方向居中 */
+  height: 100vh;          /* 占满整个视窗高度 */
+  background-color: #f0f0f0;
+  background-image: url('styles/backgraoud.jpg');
+  background-repeat: no-repeat; /* 禁止图片重复 */
+  background-position: center; /* 居中显示 */
+  
+}
+.Login {
+  width: 30%;
+  height: 50%;
+  border-radius: 20px; /* 圆角半径 */
+  text-align: center;
+  line-height: 100px; /* 让文字垂直居中 */
+  background-color: aquamarine;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+  background-color: rgba(255, 255, 255, 0.5); /* 黑色背景，透明度 0.5 */
+}
+.LoginRemember{
+  display: flex;         /* 启用 Flexbox 布局 */
+  justify-content: space-between; /* 左右两边对齐 */
+  align-items: center;   /* 垂直居中对齐（可选） */
+  height: 100px;         /* 设置容器高度 */
+  background-color: lightgray;
+  padding: 10px;
+  height: 10%;
+}
+.Remember{
+  background-color: #3498db;
+  color: white;
+  padding: 5px;
+}
+.Forgot{
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px;
+}
+.checked {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+.halfsee {/* logon界面半透明 */
+  background-color: rgba(255, 255, 255, 0.5); /* 黑色背景，透明度 0.5 */
+}
+/* Register 注册界面的css */
+.RegisterPage{
+  display: flex;
+  justify-content: center; /* 水平方向居中 */
+  align-items: center;    /* 垂直方向居中 */
+  height: 100vh;          /* 占满整个视窗高度 */
+  background-color: #f0f0f0;
+  background-image: url('styles/registerpage.jpg');
+  background-repeat: no-repeat; /* 禁止图片重复 */
+  background-position: center; /* 居中显示 */
+  background-size: 60% 70%; /* 宽300px，高200px */
+}
+.Register{
+  background-color: rgb(161, 225, 225);
+  width: 30%;
+  border-radius: 20px; /* 圆角半径 */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+  background-color: rgba(255, 255, 255, 0.5); /* 黑色背景，透明度 0.5 */
+}
+
+.registerButton{
+  text-align: center;
+  padding-bottom: 20px; /* 设置底部内边距 */
+  
+}
+.button1{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+  background-color: rgba(255, 255, 255, 0.5); /* 黑色背景，透明度 0.5 */
+  color: black;
+  font-weight: bold;   /* 加粗字体 */
+}
+/* Dashboard 用户界面的css  */
+.myDashboard{
+  
 }
